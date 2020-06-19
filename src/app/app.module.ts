@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FerryComponent } from './ferry/ferry-container/ferry-show/ferry.component';
+import { FerryContainerComponent } from './ferry/ferry-container/ferry-container.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FerryComponent,
+    FerryContainerComponent
   ],
   imports: [
     BrowserModule,
