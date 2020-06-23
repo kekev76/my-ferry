@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FerryComponent } from './ferry/ferry-container/ferry-show/ferry.component';
 import { FerryContainerComponent } from './ferry/ferry-container/ferry-container.component';
+import { FerryActionComponent } from './ferry/ferry-container/ferry-action/ferry-action.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     FerryComponent,
-    FerryContainerComponent
+    FerryContainerComponent,
+    FerryActionComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,5 @@
+<button *ngIf="!accessLeftOpen" id='open-left' (click)="accessLeftActivate()">Open Left</button>
+<button *ngIf="accessLeftOpen" id ='close-left' (click)="accessLeftActivate()">Close Left</button>
+
+<button *ngIf="!accessRightOpen" id='open-right' (click)="accessRightActivate()">Open Right</button>
+<button *ngIf="accessRightOpen" id='close-right' (click)="accessRightActivate()">Close Right</button>

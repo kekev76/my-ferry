@@ -3,12 +3,6 @@
         <app-ferry [accessRightOpen]="accessRightOpen" [accessLeftOpen]="accessLeftOpen"></app-ferry>
     </div>
     <div class='ferry-action'>
-        <button *ngIf="accessLeftOpen" id='open-left' (click)="accessLeftActivate()">Open Left</button>
-        <button *ngIf="!accessLeftOpen" id ='close-left' (click)="accessLeftActivate()">Close Left</button>
-    
-        <button *ngIf="!accessRightOpen" id='open-right' (click)="accessRightActivate()">Open Right</button>
-        <button *ngIf="accessRightOpen" id='close-right' (click)="accessRightActivate()">Close Right</button>
-    
-    </div>
-    
+        <app-ferry-action (accessRight)="onAccessRightChange($event)" (accessLeft)="onAccessLeftChange($event)"></app-ferry-action>    
+    </div>    
 </div>

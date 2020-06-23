@@ -6,13 +6,12 @@
 }
 
 
-.sol{
+.ferry{
+    height: 80%;
+    top: 10%;
+    width: 80%;
+    left: 10%;
     position: absolute;
-    top: 80%;
-    left: 25%;
-    height: 10%;
-    width: 50%;
-    background-color: black;
 }
 .barre-access{
     position: absolute;
@@ -23,12 +22,12 @@
     transition: 2s;
 }
 .left{
-    top: 38%;
-    left: 25%;
+    top: 44%;
+    left: 22%;
     transform: rotate(-45deg);
 }
 .right{
-    top: 38%;
-    right: 25%;
-    transform: rotate(45deg);
+    top: 44%;
+    right: 16%;
+    transform: rotate(30deg);
 }

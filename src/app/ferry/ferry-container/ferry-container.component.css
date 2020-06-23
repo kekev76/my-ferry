@@ -5,8 +5,10 @@
 .ferry-show{
     height: 200px;
     width: 100%;
+    border: solid;
 }
 .ferry-action{
     height: 200px;
     width: 100%;
+    border: solid;
 }

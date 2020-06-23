@@ -19,11 +19,11 @@ export class FerryContainerComponent implements OnInit {
     this.accessRightOpen = false;
   }
 
-  accessLeftActivate(){
-    this.accessLeftOpen = !this.accessLeftOpen;
-  }
-  accessRightActivate(){
-    this.accessRightOpen = !this.accessRightOpen;
+  onAccessRightChange(open: Boolean){
+    this.accessRightOpen = open
   }
 
+  onAccessLeftChange(open: Boolean){
+    this.accessLeftOpen = open
+  }
 }

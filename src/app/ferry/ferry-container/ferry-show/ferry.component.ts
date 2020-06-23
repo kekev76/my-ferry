@@ -43,7 +43,7 @@ export class FerryComponent implements OnInit {
     if (open){
       document.getElementById('right-barre').style.transform = 'rotate(80deg)'
     } else {
-      document.getElementById('right-barre').style.transform = 'rotate(45deg)'
+      document.getElementById('right-barre').style.transform = 'rotate(30deg)'
     }
   }
 
